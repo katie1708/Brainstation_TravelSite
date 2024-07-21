@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Home Page</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./css/global.css" rel="stylesheet">
+    <link href="./css/main.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav class="nav">
+            <a class="nav__title" href="./index.html">Travel Site</a>
+            <ul class="nav__menu">
+                <li class="nav__menu__item"><a class="nav__menu__item-link" id="current" href="./index.html">Home</a></li>
+                <li class="nav__menu__item"><a class="nav__menu__item-link" href="./pages/hawaii.html">Hawaii</a></li>
+                <li class="nav__menu__item"><a class="nav__menu__item-link" href="./pages/iceland.html">Iceland</a></li>
+                <li class="nav__menu__item"><a class="nav__menu__item-link" href="./pages/greece.html">Greece</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero__text">
+                <h1 class="hero__slogan">Travelling Comes With Endless Discoveries</h1>
+                <p>Don't let your dreams be just dreams. Experience the world by booking a vacation with us now.</p>
+                <button class="hero__button">Get started</button>
+            </div>
+            <img class="hero__image" src="./assets/Images/hero.png" alt="hero-img">
+        </section>
+        <div class="recommendations">
+            <h2>Recommendations</h2>
+            <div class="recommendations__destinations">
+                <a class="card destinations__card destinations__card--hawaii" href="./pages/hawaii.html">
+                    <h3 class="destinations__card--title">Hawaii</h3>
+                </a>
+                <a class="card destinations__card destinations__card--iceland" href="./pages/iceland.html">
+                    <h3 class="destinations__card--title">Iceland</h3>
+                </a>
+                <a class="card destinations__card destinations__card--greece" href="./pages/greece.html">
+                    <h3 class="destinations__card--title">Greece</h3>
+                </a>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <section class="footer__contact">
+            <h3 class="footer__title">Contact</h3>
+            <div>
+                <p class="footer__subtitle">Email</p>
+                <p>info@travelsite.com</p>
+            </div>
+        </section>
+        <section class="footer__hour">
+            <h3 class="footer__title">Hours</h3>
+            <div class="footer__hour-list">
+                <div>
+                    <p class="footer__subtitle">Monday - Friday</p>
+                    <p>9:00 AM - 5:00 PM</p>
+                </div>
+                <div>
+                    <p class="footer__subtitle">Saturday</p>
+                    <p>10:00 AM - 4:00 PM</p>
+                </div>
+                <div>
+                    <p class="footer__subtitle">Sunday</p>
+                    <p>Closed</p>
+                </div>
+            </div>
+        </section>
+        <section class="footer__social">
+            <h3 class="footer__title">Social</h3>
+            <div class="footer__icon">
+                <div class="footer__icon--fit"><a href="https://instagram.com"><img src="./assets/Images/icon-instagram.png" alt="instagram"></a></div>
+                <div class="footer__icon--fit"><a href="https://facebook.com"><img src="./assets/Images/icon-facebook.png" alt="facebook"></a></div>
+                <div class="footer__icon--fit"><a href="https://twitter.com"><img src="./assets/Images/icon-twitter.png" alt="twitter"></a></div>
+            </div>
+        </section>
+    </footer>
+</body>
+</html>

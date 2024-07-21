@@ -1,0 +1,126 @@
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body{
+    margin:0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    background-color: #FFFFFF;
+    color: #335576;
+}
+
+header {
+    position:sticky;
+    top: 0;
+}
+
+.nav {
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 5rem;
+    /* position:sticky;
+    top: 0; */
+}
+
+.nav__title {
+    display: inline-block;
+    color:#335576;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+.nav__menu {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav__menu__item {
+    list-style-type: none;
+}
+
+.nav__menu__item-link {
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    font-weight: lighter;
+    margin-left: 1rem;
+    padding-bottom: 0.5rem;
+}
+
+.nav__menu__item-link:hover {
+    border-bottom: solid 3px #DB7A4E;
+}
+
+#current {
+    border-bottom: solid 3px #DB7A4E;
+}
+
+footer {
+    background-color: #FEFAF5;
+    display: flex;
+    justify-content:space-evenly;
+    padding: 2rem 8rem;
+    padding-left: 9rem;
+}
+
+.footer__title {
+    font-size: 1.5rem;
+}
+
+.footer__subtitle {
+    color:#DB7A4E;
+    font-size: 0.75rem;
+}
+
+footer > * {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__hour {
+    width: 40%;
+}
+
+.footer__social {
+    width: 15%;
+}
+
+.footer__hour-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__icon {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+
+.footer__icon--fit {
+    width: 25px;
+    height: 25px;
+    text-align: center;
+}
+
+.footer__icon--fit img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
+
+.card {
+    display: inline-block;
+    width: 17rem;
+    height: 25rem;
+    border-radius: 5px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-left: 2rem;
+    text-decoration: none;
+}
